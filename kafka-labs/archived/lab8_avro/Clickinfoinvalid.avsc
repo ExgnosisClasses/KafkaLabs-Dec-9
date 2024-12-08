@@ -1,0 +1,14 @@
+{"namespace": "x.lab8_avro",
+ "type": "record",
+ "name": "Clickinfo",
+ "fields": [
+     {"name": "timestamp", "type": "long"},
+     {"name": "session", "type": "string"},
+     {"name": "domain", "type": "string"},
+     {"name": "user", "type": "string"},
+     {"name": "cost", "type": "long"},
+     {"name": "campaign", "type": "string"},
+     {"name": "ip", "type": "string"},
+     {"name":"action", "type": "string"}
+ ]
+}

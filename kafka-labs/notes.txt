@@ -1,0 +1,3 @@
+Spark Kafka Streaming
+
+https://medium.com/expedia-group-tech/apache-spark-structured-streaming-first-streaming-example-1-of-6-e8f3219748ef

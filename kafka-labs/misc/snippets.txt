@@ -1,0 +1,13 @@
+// -- to read from beginning
+        if (readFromBeginning) {
+            // the following will make sure I am reading from beginning all the
+            // time
+            config.put(ConsumerConfig.GROUP_ID_CONFIG, UUID.randomUUID().toString());
+            config.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest");
+
+        } else {
+            config.put(ConsumerConfig.GROUP_ID_CONFIG, "traffic-reporter1");
+        }
+
+        
+        // --------
